@@ -1,0 +1,35 @@
+.payoutModal__transHeading{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+.payoutModal__transInput{
+    border: 1px solid #00000015;
+    border-radius: 10px;
+    padding: 10px;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #999999;
+
+}
+.payoutModal__transInput:focus{
+    outline: none;
+}
+.payoutModal__transSubmitBtn{
+    background: #1b77d2 !important;
+    color: #FFFFFF !important;
+}
+.custom__layout{
+    max-width: 1900px !important;
+}
+.orderPaymentDashboard .MuiDataGrid-overlay.css-163y13e-MuiDataGrid-overlay{
+    visibility: hidden !important;
+}
+.orderPaymentDashboard .MuiDataGrid-overlay.css-163y13e-MuiDataGrid-overlay::after {
+    visibility: visible;
+    content: "No Data";
+}
